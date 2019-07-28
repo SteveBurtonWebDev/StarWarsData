@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+ }
+
+.buttonArea {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 20vh;
+    background-image: url("./images/swstarfield.jpg");
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid yellow;
+    position: fixed;
+    top: 0;
+}
+
+.buttonArea button {
+    font-size: calc(.65em + 1vw);
+    background-color: black;
+    color: yellow;
+    padding: 6px;
+    margin: 0 10px;
+    border-radius: 5px 5px;
+   } 
+
+.mainArea {
+    width: 100vw;
+    margin-top: 20vh;
+    min-height: 80vh;
+    background-image: url(./images/swuniverse.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.loading h1 {
+    margin: auto;
+    padding-top: 30vh;
+    color: yellow;
+    text-align: center;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.boxes ul {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    min-width: 250px;
+    min-height: 300px;
+    list-style: none;
+    text-align: center;
+    color: white;
+    align-items: center;
+    border-radius: 5px 5px;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.boxes ul li {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    color: yellow;
+    text-transform: capitalize;
+}
+
+
+.boxes ul li.itemName {
+    text-transform: uppercase;
+    margin: 10px 0;
+    background-color: darkslategray;
+    border: 1px solid white;
+    border-radius: 5px 5px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.boxes ul li.itemTitle {
+    font-weight: 700;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 22px;
+    color: white;
+}
+.itemSpecs {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+footer h4 {
+    margin: 20px;
+    color: yellow;
+    text-align: center;
+}
+
+
+
